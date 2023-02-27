@@ -1,0 +1,65 @@
+.container{
+    width: 1200px;
+    background-color: #a8a4ce9c;
+    margin: auto;
+    font-family: 'Kantumruy Pro', sans-serif;
+}
+
+table{
+    width: 100%;
+    
+    text-align: center;
+    
+}
+table, tr, th, td{
+    border: 3px solid whitesmoke;
+    
+    border-collapse: collapse;
+}
+table thead th {
+    background-color: #31087B;
+    color: whitesmoke;
+    padding: 15px;
+}
+table tbody tr td{
+    height: 150px;
+    width: 155px;
+    font-family: 'Kantumruy Pro', sans-serif;
+    font-weight: 700;
+   
+    color: rgb(86, 9, 158);
+   
+    
+}
+.colorBg{
+    background-color: #eeac28;
+    color: whitesmoke;
+    
+}
+#wBorder{
+    border: 4px dotted #ff04ab ;
+   
+}
+#bgImg{
+    background-image: url('nft.jpg');
+    background-size: cover;
+    color: aliceblue;
+}
+#bgImg2{
+    background-image: url('footbal.jpg');
+    background-size: cover;
+    color: rgb(0, 0, 0);
+}
+#anniText{
+    font-size: 25px;
+    
+    
+}
+th:hover{
+    background-color: #0096FF;
+    color: #ffffff;
+}
+td:hover{
+    background-color: #ff04ab;
+    color: whitesmoke;
+}
